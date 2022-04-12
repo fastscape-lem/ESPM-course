@@ -1,0 +1,6 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "shape_yx"
+    ],
+    "description": "nb. of grid nodes in (y, x)"
+}

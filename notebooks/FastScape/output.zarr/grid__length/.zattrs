@@ -1,0 +1,6 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "shape_yx"
+    ],
+    "description": "total grid length in (y, x)"
+}

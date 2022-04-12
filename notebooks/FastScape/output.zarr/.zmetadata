@@ -1,0 +1,306 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "border/.zarray": {
+            "chunks": [
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<U6",
+            "fill_value": "",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4
+            ],
+            "zarr_format": 2
+        },
+        "border/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "border"
+            ],
+            "description": "4-border boundaries coordinate"
+        },
+        "boundary__status/.zarray": {
+            "chunks": [
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<U11",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4
+            ],
+            "zarr_format": 2
+        },
+        "boundary__status/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "border"
+            ],
+            "description": "node status at borders"
+        },
+        "grid__length/.zarray": {
+            "chunks": [
+                2
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2
+            ],
+            "zarr_format": 2
+        },
+        "grid__length/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "shape_yx"
+            ],
+            "description": "total grid length in (y, x)"
+        },
+        "grid__shape/.zarray": {
+            "chunks": [
+                2
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                2
+            ],
+            "zarr_format": 2
+        },
+        "grid__shape/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "shape_yx"
+            ],
+            "description": "nb. of grid nodes in (y, x)"
+        },
+        "init_topography__seed/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<f8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "init_topography__seed/.zattrs": {
+            "_ARRAY_DIMENSIONS": [],
+            "description": "random seed"
+        },
+        "spl__area_exp/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "spl__area_exp/.zattrs": {
+            "_ARRAY_DIMENSIONS": [],
+            "description": "drainage area exponent"
+        },
+        "spl__k_coef/.zarray": {
+            "chunks": [
+                201
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                201
+            ],
+            "zarr_format": 2
+        },
+        "spl__k_coef/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "description": "bedrock channel incision coefficient"
+        },
+        "spl__slope_exp/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "spl__slope_exp/.zattrs": {
+            "_ARRAY_DIMENSIONS": [],
+            "description": "slope exponent"
+        },
+        "time/.zarray": {
+            "chunks": [
+                201
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                201
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "__xsimlab_master_clock__": 1,
+            "__xsimlab_output_clock__": 1
+        },
+        "topography__elevation/.zarray": {
+            "chunks": [
+                51,
+                26,
+                51
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                201,
+                101,
+                101
+            ],
+            "zarr_format": 2
+        },
+        "topography__elevation/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "y",
+                "x"
+            ],
+            "description": "surface topography elevation"
+        },
+        "uplift__rate/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "uplift__rate/.zattrs": {
+            "_ARRAY_DIMENSIONS": [],
+            "description": "uplift rate"
+        },
+        "x/.zarray": {
+            "chunks": [
+                101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                101
+            ],
+            "zarr_format": 2
+        },
+        "x/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "x"
+            ],
+            "description": "grid x coordinate"
+        },
+        "y/.zarray": {
+            "chunks": [
+                101
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                101
+            ],
+            "zarr_format": 2
+        },
+        "y/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "y"
+            ],
+            "description": "grid y coordinate"
+        }
+    },
+    "zarr_consolidated_format": 1
+}

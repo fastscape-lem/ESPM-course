@@ -1,0 +1,37 @@
+name: ESPM-Course
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - dask
+  - dask-labextension
+  - xarray
+  - rioxarray
+  - xarray-simlab=0.5.0
+  - fastscapelib-f2py=2.8.2
+  - fastscape
+  - orographic_precipitation
+  - ipyfastscape
+  - jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - matplotlib
+  - graphviz
+  - python-graphviz
+  - numba
+  - ipywidgets
+  - ipygany
+  - hvplot
+  - datashader
+  - zarr
+  - tqdm
+  - nodejs
+  - geopandas
+  - openmpi
+  - mpi4py
+  - seaborn
+  - pip
+  - nomkl
