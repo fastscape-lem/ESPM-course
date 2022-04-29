@@ -30,8 +30,6 @@ dependencies:
   - tqdm
   - nodejs
   - geopandas
-  - openmpi
-  - mpi4py
   - seaborn
   - pip
   - nomkl
